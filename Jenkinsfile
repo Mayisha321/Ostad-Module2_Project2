@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Repo') {
             steps {
-                git branch: 'master', url: 'git@github.com:Mayisha321/project-2.git'
+                git branch: 'master', url: 'git@github.com:Mayisha321/Ostad-Module2_Project2.git'
             }
         }
 
